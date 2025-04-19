@@ -5,9 +5,7 @@ import pandas as pd
 import plotly.express as px
 import requests
 
-# Load models
-maternal_model = pickle.load(open("model/finalized_maternal_model.sav", 'rb'))
-fetal_model = pickle.load(open("model/fetal_health_classifier.sav", 'rb'))
+
 
 # Sidebar for navigation
 with st.sidebar:
