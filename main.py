@@ -6,6 +6,8 @@ import plotly.express as px
 import requests
 
 
+maternal_model = pickle.load(open("finalized_maternal_model.sav", 'rb'))
+fetal_model = pickle.load(open("fetal_health_classifier.sav", 'rb'))
 
 # Sidebar for navigation
 with st.sidebar:
